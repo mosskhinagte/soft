@@ -1,6 +1,5 @@
-import Axios from "axios";
-import { CART_ADD_ITEM } from "../constants/cartConstants";
-
+const { default: Axios } = require("axios");
+const { CART_ADD_ITEM } = require("../constants/cartConstants");
 
 const addToCart = (productId, qty) => async (dispatch) => {
 
